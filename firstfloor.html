@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>first floor</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<style>
+
+
+
+	@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  margin: 0;
+  mix-blend-mode: difference;
+  position: fixed;
+  text-decoration: none;
+  padding-left: 15px;
+  z-index: 6;
+}
+
+a:hover {
+  color:blue;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(white 50%,black);
+}
+
+img {
+   max-width: 100%;
+   display: block;
+   padding-bottom: 50px;
+   filter:grayscale(100%);
+ }
+
+img:hover {
+  filter: none;
+}
+
+video {
+   max-width: 100%;
+   display: block;
+   padding-bottom: 50px;
+   filter:grayscale(100%);
+ }
+
+video:hover {
+  filter: none;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  font-size: 1em;
+font-family: 'Cutive Mono', monospace;
+color: #a71515;
+opacity: 0.3;
+transition: all 1s ease-in-out;
+/* animation-name: textfloat;
+animation-duration: 3s;
+animation-timing-function: ease-in;
+animation-iteration-count: infinite;
+animation-direction: alternate; */
+}
+
+section:hover{
+opacity:1;
+cursor: default;
+}
+
+.words{
+font-size: 10px;
+}
+
+
+@keyframes textfloat {
+0%{
+  transform: translateY(-7px);
+}
+34%{
+  transform: translateY(-14px);
+}
+66%{
+  transform: translateY(-21px);
+}
+100%{
+  transform: translateY(-28px);
+}
+}
+
+
+.sanfrancisco {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(347px, 1fr));
+}
+
+ .davesmall {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(347px, 1fr));
+  }
+
+@media screen and (max-width: 693px) {
+  img {
+    padding: 0;
+    filter: none;
+  }
+  video {
+    padding: 0;
+    filter: none;
+  }
+}
+
+.box{
+        position: relative;
+        display: inline-block;
+      }
+
+.box:hover > .text{
+  opacity: 1;
+}
+
+.text{
+  -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+  background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+  background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+  background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+  background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+  background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+  background-color:#ffffff;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#666666;
+  font-family:Arial;
+
+  font-size:8px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+  position:absolute;
+            position: absolute;
+            z-index: 10;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            top: 60%;
+            width: 60%;
+            font-family: arial;
+            white-space: nowrap;
+            text-align:center;
+        }
+
+        .text:hover {
+          background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+          background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+          background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+          background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+          background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+          background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+          filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+          background-color:#f6f6f6;
+          box-shadow: 0px 2px 14px 10px #fa4d4d;
+        }
+
+
+		</style>
+
+
+
+	</head>
+
+	<body>
+<div class="sanfrancisco">
+
+      <img src="nahousefloor1/bed1.jpg">
+      <img src="nahousefloor1/bed2.jpg">
+      <img src="nahousefloor1/me.jpg">
+          <img src="nahousefloor1/bells.jpg">
+          <img src="nahousefloor1/pasta.jpg">
+
+          <section>“people might think we’re hippies” Souma once joked. But if this lifestyle makes them "hippies", they’re hippies with rules — soft, undefined ones that I’m still figuring out and have surely fumbled with as a guest. <br><br>
+
+I was confused at how Mintaro-san cooked pasta, only to say he’d already eaten and offer it to me and Peter (“I cooked for him yesterday,” Peter explained). If I hadn’t taken that plate, would he have eaten that (very delicious) meal?  <br><br>
+
+And I’m still learning a system wherein various friends and guests come and go, paying for their stay with household gifts or homemade beer. Have the sake and snacks I’ve bought been enough too?</section>
+  <img src="nahousefloor1/wallguitars.jpg">
+  <img src="nahousefloor1/chandelier.jpg">
+              <img src="nahousefloor1/map1.jpg">
+              <img src="nahousefloor1/map2.jpg">
+              <img src="nahousefloor1/map3.jpg">
+              <img src="nahousefloor1/books.jpg">
+              <img src="nahousefloor1/photos.jpg">
+              <section>Each flyer, poster, drawing, random thing stuck to the wall must have some kind of memory attached to it. JJ laughs as he points out one letter he wrote to someone here; it’s now stuck to the bathroom door. <br><br>The walls scream nostalgia, and it’s charming yet alienating. The first time I walked into Nahouse and took in all these remnants of a vibrant past, I felt horribly foreign and lonely. <br><br>Less so now…I’ve stuck my own memory to the wall. Another friend, come and gone during the 2019 months of June and July.
+</section>
+              <img src="nahousefloor1/toilet2.jpg">
+              <img src="nahousefloor1/ramen.jpg">
+              <img src="nahousefloor1/kitchen1.jpg">
+              <img src="nahousefloor1/kitchen2.jpg">
+              <img src="nahousefloor1/toilet1.jpg">
+              <img src="nahousefloor1/toilet3.jpg">
+              <img src="nahousefloor1/redfuzzy.jpg">
+              <img src="nahousefloor1/plates.jpg">
+              <img src="nahousefloor1/redsofa.jpg">
+              <img src="nahousefloor1/salt.jpg">
+              <img src="nahousefloor1/umeshu.jpg">
+              <img src="nahousefloor1/hand.jpg">
+
+              <img src="nahousefloor1/sleepingpeter1.jpg">
+              <img src="nahousefloor1/sleepingpeter2.jpg">
+              <img src="nahousefloor1/dj3.jpg">
+              <img src="nahousefloor1/dj2.jpg">
+  <section>  I asked Miki how often they organize their parties, only to have her shrug and explain that they “just happen”. <br><br>They really do "just happen", and often too. Someone will start fiddling with the dj table, cans of beer will come out, the projector screen lowered, table pushed to the side, a dance floor formed. <br><br> Despite these festivities, the house is always clean and the kitchen spotless. The morning after a party, I’ll find trash bags outside the door – one full of beer cans, another of PET bottles, another of combustibles. Perhaps the wall will also have one extra flyer decorating it — like the Wakage no Itarimura brochure Gushiken-san showed Miki last night. </section>
+
+
+              <img src="nahousefloor1/smile.jpg">
+              <video autoplay loop muted><source src="nahousefloor1/alexisdance.mov"></video>
+                <video autoplay loop muted><source src="nahousefloor1/boomerang.mp4"></video>
+                  <video autoplay loop muted><source src="nahousefloor1/mikidance.mov"></video>
+
+                  <video autoplay loop muted><source src="nahousefloor1/discoball.mov"></video>
+                    <video autoplay loop muted><source src="nahousefloor1/takaodance.mov"></video>
+                    <video autoplay loop muted><source src="nahousefloor1/dj.mp4"></video>
+                      <video autoplay loop muted><source src="nahousefloor1/kanpai.mov"></video>
+
+<div class="box">
+        <img src="nahousefloor1/takaostair.jpg">
+        <a href="secondfloor.html" class="text">
+          <h1>To second floor</h1>
+        </a>
+
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script type="text/javascript">
+
+			$('.james').click(function(){
+				$('.red_sweeper').toggleClass('doorOpen');
+			});
+
+
+
+	</script>
+
+
+
+</body>
+
+</html>
